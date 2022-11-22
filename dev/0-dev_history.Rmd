@@ -13,10 +13,10 @@ All commands that you use to use when developing packages...
 
 ```{r description, eval=FALSE}
 # Describe your package
-fusen::fill_description(
+fusen::fill_description(overwrite = TRUE,
   pkg = here::here(),
   fields = list(
-    Title = "R Package To Help In Data Processing, 2D And 3D Plot For Biomechanics.",
+    Title = "R Package To Help In Data Processing, 2D And 3D Plot For Biomechanics",
     Description = "Utilisez biomknx pour vos calculs, le traitement et la visualisation de vos données dans le domaines de la biomécanique. Les fonctions de ce package permettent de faciliter les calculs dans la géométrie 'Humaine', créer des graphiques 2D et 3D pour étudier le mouvement 'Humaine'.",
     `Authors@R` = person("Julien", "MILON", email = "julien.milon@mines-ales.org", role = c("aut", "cre"))
   )

@@ -1,0 +1,21 @@
+Package: biomknx
+Title: R Package To Help In Data Processing, 2D And 3D Plot For
+    Biomechanics
+Version: 0.0.0.9000
+Authors@R: 
+    person("Julien", "MILON", , "julien.milon@mines-ales.org", role = c("aut", "cre"))
+Description: Utilisez biomknx pour vos calculs, le traitement et la
+    visualisation de vos données dans le domaines de la biomécanique. Les
+    fonctions de ce package permettent de faciliter les calculs dans la
+    géométrie 'Humaine', créer des graphiques 2D et 3D pour étudier le
+    mouvement 'Humaine'.
+License: MIT + file LICENSE
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: 
+    knitr
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.0

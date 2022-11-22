@@ -1,2 +1,5 @@
 
 ^dev$
+^LICENSE\.md$
+^biomknx\.Rproj$
+^\.Rproj\.user$
